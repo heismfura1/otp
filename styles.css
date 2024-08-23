@@ -146,7 +146,7 @@ body {
 }
 
 .footer {
-    background: rgb(4, 53, 4);
+    background: rgb(2, 20, 2);
     color: #fff;
     text-align: center;
 }
@@ -254,6 +254,6 @@ body {
         flex-direction: column;
     }
 
-    
+
 
   }
