@@ -7,7 +7,7 @@
     <title>OTP WIDE</title>
     <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
 
 <body>
@@ -25,11 +25,25 @@
                 <a href="#Gallery">Gallery</a>
                 <a href="#Contact">Contact</a>
             </nav>
+            <div class="menu" id="menu">
+                <?xml version="1.0" encoding="iso-8859-1"?><!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"
+                    width="24px" height="24px">
+                    <g id="Outlined">
+                        <line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="2" y1="12"
+                            x2="22" y2="12" />
+                        <line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="2" y1="6"
+                            x2="22" y2="6" />
+                        <line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="2" y1="18"
+                            x2="22" y2="18" />
+                    </g>
+                </svg>
+            </div>
         </div>
     </header>
     <section class="hero">
         <div class="container">
-            <div  style="text-align: left;">
+            <div style="text-align: left;">
                 <h2 style="color: rgb(4, 35, 5);">DRESS WITH KULTURE</h2>
                 <p style="color: rgb(7, 7, 7);">
                 <h3> Discover The Best Kulture X Christianity Fit. </h3>
@@ -47,8 +61,8 @@
             </div>
         </div>
 
-        <div class="edit">
-            <img src="logo.jpg" alt="">
+        <div>
+            <img src="logo-removebg-preview.png" alt="">
         </div>
     </section>
     <section id="About" class="about">
@@ -57,7 +71,7 @@
             <div style="float: left;">
                 <img src="about.png" alt="">
             </div>
-            <div class="container">
+            <div class="aboutus">
                 <h2 id="About">About Us</h2>
                 <p>
 
@@ -78,7 +92,7 @@
         <div class="container">
             <div id="Services">
                 <h2 style="text-align: center;">Our Store</h2>
-                
+
                 <br>
                 <div class="service-list">
                     <div class="card">
@@ -102,7 +116,6 @@
                         <p>Street Wear X Christianity X culture</p>
                         <p><button>Add to Cart</button></p>
                     </div>
-                
                 </div>
             </div>
         </div>
@@ -183,7 +196,7 @@
                     <p>Kigali, Rwanda</p>
                     <p>000000000000</p>
                     <p>Mon-Sun: 10:00 AM - 10:30 PM</p>
-                    
+
                 </div>
                 <div class="footer-social">
                     <a href="#"><img src="facebook.jpg" alt="Facebook"></a>
@@ -193,6 +206,19 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+
+       const menu =  document.getElementById("menu");
+       const nav = document.querySelector('.nav');
+       menu.addEventListener("click", function(){
+        if(nav.style.display == "flex"){
+            nav.style.display = "none";
+        }else{
+            nav.style.display = "flex";
+        }
+       })
+    </script>
 </body>
 
 </html>
